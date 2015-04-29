@@ -28,7 +28,7 @@ This command lists the contents of the directory you're currently in.
 ```
 $ (Tab) ↹
 ```
-The tab key allows you to autocomplete a string or path you're typing out in your terminal. This shortcut is a good incentive to make sure you're naming things without spaces in-between words (i.e. Bad: "Personal Projects" vs. Good: "personal-projects").
+The tab key allows you to auto-complete a string or path you're typing out in your terminal. This shortcut is a good incentive to make sure you're naming things without spaces in-between words (i.e. Bad: "Personal Projects" vs. Good: "personal-projects").
 
 ```
 $ which ruby
