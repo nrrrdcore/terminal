@@ -45,6 +45,11 @@ $ sudo gem install
 ```
 `sudo` allows you to bypass permissions on your computer and install things using just your system password (the terminal will prompt you for this after you run the command).
 
+```
+sudo !!
+```
+If you run a command and forget to add sudo to it run `sudo !!` and it'll prepend the previous command with your `sudo`. Compliments of [@joericho](https://twitter.com/joericho).
+
 ## Useful Git Commands
 
 Git is a type of version control that we can interact with via the terminal.
@@ -81,5 +86,9 @@ $ git checkout -b your-new-branch
 ```
 This command allows you to create, name, and switch to a new branch at the same time. Super handy.
 
+```
+$ git co -
+```
+This command allows you to check out the branch you just switched from. From the mind and workflow of [@__Neha ](https://twitter.com/__Neha)
 
-You can search more git commands on http://git-scm.com/.
+**Pro-tip: Search more git commands on http://git-scm.com/.**
