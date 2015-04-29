@@ -30,6 +30,21 @@ $ (Tab) ↹
 ```
 The tab key allows you to autocomplete a string or path you're typing out in your terminal. This shortcut is a good incentive to make sure you're naming things without spaces in-between words (i.e. Bad: "Personal Projects" vs. Good: "personal-projects").
 
+```
+$ which ruby
+```
+The `which` command allows you to check to see if a gem or package is installed on your machine.
+
+```
+$ ruby -v
+```
+The `-v` command asks your computer which version of something you have installed. This can be super useful when managing and updating "dependencies".
+
+```
+$ sudo gem install
+```
+`sudo` allows you to bypass permissions on your computer and install things using just your system password (the terminal will prompt you for this after you run the command).
+
 ## Useful Git Commands
 
 Git is a type of version control that we can interact with via the terminal.
