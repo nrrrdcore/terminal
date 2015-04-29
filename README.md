@@ -18,7 +18,7 @@ To flip through previously used commands.
 ```
 ⌥ + click
 ```
-To place your cursor inside of a line in your terminal. Shout out to [@kelseyinnis](https://twitter.com/kelseyinnis) for this gem. Applaud her.
+Use option+click to place your cursor inside of a line in your terminal. Shout out to [@kelseyinnis](https://twitter.com/kelseyinnis) for this gem. Applaud her.
 
 ```
 $ ls
