@@ -18,7 +18,7 @@ To flip through previously used commands.
 ```
 ⌥ + click
 ```
-To place your cursor inside of a line in your terminal.
+To place your cursor inside of a line in your terminal. Shout out to [@kelseyinnis](https://twitter.com/kelseyinnis) for this gem. Applaud her.
 
 ```
 $ ls
@@ -62,7 +62,17 @@ Your branch is up-to-date with 'origin/gh-pages'
 This command also returns info about whether or not your branch is up-to-date with its "parent" branch.
 
 ```
+$ git add .
+```
+`.` tells the terminal to add all changed or edited files to be to be committed.
 
 ```
+$ git add . -A
+```
+Here appending the `-A` to the `add .` command  tells the terminal to create (or, add) any files you've added to your project (images included) and simultaneously to delete any files (or images) that you removed. This can be super helpful when you're getting started with a project and adding and deleting a ton of assets.
 
+```
+$ git commit -m"your commit message here"
+```
+This command allows you to write your commit message 
 You can search more git commands on http://git-scm.com/.
