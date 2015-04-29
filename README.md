@@ -74,7 +74,7 @@ $ git add .
 ```
 $ git add . -A
 ```
-Here appending the `-A` to the `add .` command  tells the terminal to create (or stage) any files you've added to your project (images included) and simultaneously to delete any files (or images) that you removed. This can be super helpful when you're getting started with a project and adding and deleting a ton of assets.
+Here appending the `-A` to the `add .` command  tells the terminal to create (or stage) any files you've added to your project (images included) and simultaneously to delete any files (or images) that you removed. This can be super helpful when you're getting started with a project and adding and deleting a ton of "assets".
 
 ```
 $ git commit -m"your commit message here"
