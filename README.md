@@ -21,6 +21,11 @@ To flip through previously used commands.
 Use option+click to place your cursor inside of a line in your terminal. Shout out to [@kelseyinnis](https://twitter.com/kelseyinnis) for this gem. Applaud her.
 
 ```
+Ctrl + c
+```
+Use this command to quit or cancel a process in your terminal.
+
+```
 $ ls
 ```
 This command lists the contents of the directory you're currently in.
