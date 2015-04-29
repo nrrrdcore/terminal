@@ -74,5 +74,12 @@ Here appending the `-A` to the `add .` command  tells the terminal to create (or
 ```
 $ git commit -m"your commit message here"
 ```
-This command allows you to write your commit message 
+This command allows you to write your commit message inline.
+
+```
+$ git checkout -b your-new-branch
+```
+This command allows you to create, name, and switch to a new branch at the same time. Super handy.
+
+
 You can search more git commands on http://git-scm.com/.
