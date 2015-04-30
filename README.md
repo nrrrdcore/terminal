@@ -13,9 +13,14 @@ $ cd ..
 ```
 arrow up key
 Ctrl + p
+```
+To flip up through previously used commands.
+
+```
+arrow down key
 Ctrl + n
 ```
-To flip through previously used commands.
+To flip down through following commands.
 
 ```
 Ctrl + a
