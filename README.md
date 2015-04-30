@@ -68,7 +68,7 @@ The tab key allows you to auto-complete a string or path you're typing out in yo
 ```
 $ which ruby
 ```
-The `which` command allows you to check to see if a gem or package is installed on your machine.
+The `which` command allows you to check to see if a gem (or a package) is installed on your machine. In addition, it returns the call path.
 
 ```
 $ ruby -v
