@@ -78,7 +78,19 @@ The `-v` command asks your computer which version of something you have installe
 ```
 $ sudo gem install
 ```
-`sudo` allows you to bypass permissions on your computer and install things using just your system password (the terminal will prompt you for this after you run the command).
+`sudo` allows you to utilize root permission for single (or multiple by chaining) commands. In order to "use" root-level permission, the current user must be in sudo-er group.
+
+```
+sudo -s
+su -
+```
+`sudo -s` allows switch to root. `su -`, similarly, allows the switch and passes current environment over (`-`).
+
+```
+id -u
+id -g
+```
+In order to check if the current user is root, `id -u` returns value of current userId (usually ==1000 or >=0) and `id -g` that of user group. Root users exclusively use 0.
 
 ```
 sudo !!
