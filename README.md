@@ -101,4 +101,4 @@ $ git co -
 ```
 This command allows you to check out the branch you just switched from. From the mind and workflow of [@__Neha ](https://twitter.com/__Neha)
 
-**Pro-tip: Search more git commands on http://git-scm.com/.**
+**Pro-tip: Search more git commands on [http://git-scm.com/](http://git-scm.com/) and at [https://github.com/k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules)**
