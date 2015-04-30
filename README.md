@@ -33,7 +33,7 @@ This command lists the contents of the directory you're currently in.
 ```
 $ ls -la
 ```
-This command also lists the contents of your active or current directory but it also shows hidden files & dotfiles. This tip gifted by [@_dte](https://twitter.com/_dte)
+This command also lists the contents of your active or current directory but it also shows hidden files & dotfiles. This tip gifted by [@_dte](https://twitter.com/_dte).
 
 ```
 $ (Tab) ↹
