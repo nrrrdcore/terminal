@@ -12,8 +12,27 @@ $ cd ..
 
 ```
 arrow up key
+Ctrl + p
 ```
-To flip through previously used commands.
+To flip up through previously used commands.
+
+```
+arrow down key
+Ctrl + n
+```
+To flip down through following commands.
+
+```
+Ctrl + a
+Ctrl + e
+```
+To quickly jump to beginning or end of line.
+
+```
+Alt (meta) + f
+Alt (meta) + b
+```
+To jump a word forward and backwards.
 
 ```
 ⌥ + click
@@ -22,8 +41,14 @@ Use option+click to place your cursor inside of a line in your terminal. Shout o
 
 ```
 Ctrl + c
+Ctrl + d
 ```
 Use this command to quit or cancel a process in your terminal.
+
+```
+Ctrl + z
+```
+Use this command to push running process to background.
 
 ```
 $ ls
@@ -31,9 +56,9 @@ $ ls
 This command lists the contents of the directory you're currently in.
 
 ```
-$ ls -la
+$ ls -lah
 ```
-This command also lists the contents of your active or current directory but it also shows hidden files & dotfiles. This tip gifted by [@_dte](https://twitter.com/_dte).
+This command also lists the contents of your active or current directory (with human-readable filesize) but it also shows hidden files & dotfiles. This tip gifted by [@_dte](https://twitter.com/_dte).
 
 ```
 $ (Tab) ↹
@@ -43,7 +68,7 @@ The tab key allows you to auto-complete a string or path you're typing out in yo
 ```
 $ which ruby
 ```
-The `which` command allows you to check to see if a gem or package is installed on your machine.
+The `which` command allows you to check to see if a gem (or a package) is installed on your machine. In addition, it returns the call path.
 
 ```
 $ ruby -v
@@ -53,12 +78,29 @@ The `-v` command asks your computer which version of something you have installe
 ```
 $ sudo gem install
 ```
-`sudo` allows you to bypass permissions on your computer and install things using just your system password (the terminal will prompt you for this after you run the command).
+`sudo` allows you to utilize root permission for single (or multiple by chaining) commands. In order to "use" root-level permission, the current user must be in sudo-er group.
+
+```
+sudo -s
+su -
+```
+`sudo -s` allows switch to root. `su -`, similarly, allows the switch and passes current environment over (`-`).
+
+```
+id -u
+id -g
+```
+In order to check if the current user is root, `id -u` returns value of current userId (usually ==1000 or >=0) and `id -g` that of user group. Root users exclusively use 0.
 
 ```
 sudo !!
 ```
 If you run a command and forget to add sudo to it, run `sudo !!` and it'll prepend the previous command with your `sudo`. Compliments of [@joericho](https://twitter.com/joericho).
+
+```
+!?<keyword>
+```
+Run a command (in history) that starts with <keyword>
 
 ## Useful Git Commands
 
@@ -87,7 +129,7 @@ $ git add . -A
 Here appending the `-A` to the `add .` command  tells the terminal to create (or stage) any files you've added to your project (images included) and simultaneously to delete any files (or images) that you removed. This can be super helpful when you're getting started with a project and adding and deleting a ton of "assets".
 
 ```
-$ git commit -m"your commit message here"
+$ git commit -m "your commit message here"
 ```
 This command allows you to write your commit message inline.
 
@@ -101,4 +143,4 @@ $ git co -
 ```
 This command allows you to check out the branch you just switched from. From the mind and workflow of [@__Neha ](https://twitter.com/__Neha)
 
-**Pro-tip: Search more git commands on http://git-scm.com/.**
+Get more git commands <a href="http://git-scm.com/">here!</a>
