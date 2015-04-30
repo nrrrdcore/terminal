@@ -41,6 +41,7 @@ Use option+click to place your cursor inside of a line in your terminal. Shout o
 
 ```
 Ctrl + c
+Ctrl + d
 ```
 Use this command to quit or cancel a process in your terminal.
 
