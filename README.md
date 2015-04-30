@@ -31,6 +31,11 @@ $ ls
 This command lists the contents of the directory you're currently in.
 
 ```
+$ ls -la
+```
+This command also lists the contents of your active or current directory but it also shows hidden files & dotfiles. This tip gifted by [@_dte](https://twitter.com/_dte)
+
+```
 $ (Tab) ↹
 ```
 The tab key allows you to auto-complete a string or path you're typing out in your terminal. This shortcut is a good incentive to make sure you're naming things without spaces in-between words (i.e. Bad: "Personal Projects" vs. Good: "personal-projects").
